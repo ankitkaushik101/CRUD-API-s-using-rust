@@ -37,8 +37,7 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/your-username/rust-app.git
 Change into the project directory:
 
-bash
-Copy code
+
 cd rust-app
 Install dependencies:
 
@@ -49,19 +48,16 @@ Set up the PostgreSQL database:
 
 Create a .env file in the project root and add your PostgreSQL connection URL:
 
-bash
-Copy code
+```
 DATABASE_URL=postgres://username:password@localhost:5432/database_name
 Run database migrations:
 
-bash
-Copy code
+```
 diesel migration run
 Usage
 To start the application, run:
 
-bash
-Copy code
+```
 cargo run --release
 The application will be available at http://localhost:8080.
 
@@ -74,8 +70,7 @@ DELETE /users/{id}: Delete a user by ID.
 Docker
 To run the application and PostgreSQL using Docker Compose:
 
-bash
-Copy code
+
 docker-compose up -d
 The application will be available at http://localhost:8080.
 
@@ -84,8 +79,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 License
 This project is licensed under the MIT License.
-
-css
-Copy code
-
-Save the file, commit it to your version control system (e.g., Git), and push it to your GitHub repository. GitHub will automatically render the Markdown content and display it as a nicely formatted README file on your project page.
